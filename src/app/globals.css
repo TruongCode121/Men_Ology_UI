@@ -253,7 +253,7 @@ body {
     font-size: 3vw; /* Điều chỉnh kích thước font theo chiều rộng viewport */
   }
 }
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 639px) {
   html {
     font-size: 4.3vw;
   }

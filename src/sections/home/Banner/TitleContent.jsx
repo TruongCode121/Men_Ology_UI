@@ -16,8 +16,8 @@ const TitleContent = () => {
     handleBgTextAnimation(refMENBanner);
   }, []);
   return (
-    <section className="absolute top-[3.25rem] lg:top-[7.88rem] left-1/2 -translate-x-1/2">
-      <div className="uppercase text-[3.75rem] sm:text-[5rem] md:text-[4rem] lg:text-[9.375rem] leading-[6.5625rem] md:leading-[4rem] flex tt_common_bold space-x-[1rem]">
+    <section className="absolute top-[15%] sm:top-[3.25rem] lg:top-[7.88rem] left-1/2 -translate-x-1/2">
+      <div className="uppercase text-[3.75rem] sm:text-[5rem] md:text-[4rem] lg:text-[9.375rem] leading-[5.5625rem] md:leading-[4rem] flex tt_common_bold space-x-[1rem]">
         <div className="relative">
           <div
             ref={refMENBanner}
