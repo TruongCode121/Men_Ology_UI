@@ -24,7 +24,7 @@ const Section1Component = () => {
           titleStyle="text-white tt_common_demibold text-[1.5rem] sm:text-[2.5rem] lg:text-[3.75rem] mb-[1rem]"
           className="text-white w-full lg:w-[51.625rem] mt-[2.8rem] lg:mt-[7.5rem]"
         >
-          <p className="tt_common_regular text-[0.875rem] sm:text-[1rem] lg:text-[1.5625rem] leading-[1.3125rem] lg:leading-[2rem] ">
+          <p className="tt_common_regular text-[0.875rem] sm:text-[1rem] lg:text-[1.5625rem] leading-[1.3125rem] lg:leading-[2rem] line-clamp-5">
             Men O.logy là Công ty Cổ phần Hàng tiêu dùng Provence, Việt Nam.
             Thương hiệu này chuyên sản xuất các sản phẩm chăm sóc cá nhân cho
             nam như dầu gội, dao cạo râu, gel tắm. Thương hiệu này được{" "}
