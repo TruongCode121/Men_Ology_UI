@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import GroupIndex from "../../../../public/home/GroupIndex.png";
-import NhaydoiSec5 from "../../../../public/home/nhaydoiSec5";
+import NhaydoiSec5 from "../../../../public/home/NhaydoiSec5";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 const Section5FeedbackUser = () => {
   const refFeedBack = handleUseScrollTrigger(0, 0, 200, 0, 1);
