@@ -4,6 +4,9 @@ import bannerMobie from "../../../../public/home/bannerMobie.jpg";
 import BannerSlide1 from "../../../../public/home/BannerSlide1.jpg";
 import BannerSlide2 from "../../../../public/home/BannerSlide2.jpeg";
 import BannerSlide3 from "../../../../public/home/BannerSlide3.jpeg";
+import SlideBannerMobie1 from "../../../../public/home/SlideBannerMobie1.jpeg";
+import SlideBannerMobie2 from "../../../../public/home/SlideBannerMobie2.jpg";
+import SlideBannerMobie3 from "../../../../public/home/SlideBannerMobie3.jpg";
 
 // swiper
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,33 +18,35 @@ import "swiper/css/navigation";
 import "swiper/css/autoplay";
 
 import { Pagination, Navigation, Autoplay } from "swiper/modules";
-
+// slideBannerMobie1
 import Image from "next/image";
 import TitleContent from "./TitleContent";
 import SubContent from "./SubContent";
 import GridItemContent from "./GridItemContent";
 const BannerComponent = () => {
-  const resPonItem = " w-full h-[49.4375rem] sm:h-[55rem] lg:h-[68.375rem]";
+  // h-[49.4375rem]
+  const resPonItemMin640px =
+    " w-full sm:h-[100vh]  hidden md:inline-block  object-cover";
   return (
-    <section className="w-full relative ">
+    <section className="w-full relative h-[100vh] bg-black">
       <Swiper
-        modules={[Pagination, Autoplay]}
+        modules={[Pagination]}
         spaceBetween={0}
         slidesPerView={1}
-        className="bg-white"
+        // className="bg-white"
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        // autoplay={{ delay: 3000, disableOnInteraction: false }}
       >
         <SwiperSlide>
           <Image
             src={BannerPng}
             alt="banner top"
-            className={`${resPonItem} object-cover hidden sm:inline-block`}
+            className={`${resPonItemMin640px} `}
           ></Image>
           <Image
             src={bannerMobie}
             alt="banner top"
-            className={`${resPonItem}  sm:hidden inline-block`}
+            className={`w-full h-[100vh]  md:hidden inline-block object-cover`}
           ></Image>
           <div className="over_banner sm:block hidden"></div>
           <TitleContent></TitleContent>
@@ -52,25 +57,37 @@ const BannerComponent = () => {
           <Image
             src={BannerSlide1}
             alt="banner top"
-            className={resPonItem}
+            className={`${resPonItemMin640px}`}
           ></Image>
-          {/* <div className="over_banner"></div> */}
+          <Image
+            src={SlideBannerMobie1}
+            alt="banner top"
+            className={` w-full h-[100vh] object-cover md:hidden inline-block`}
+          ></Image>
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={BannerSlide2}
             alt="banner top"
-            className={resPonItem}
+            className={resPonItemMin640px}
           ></Image>
-          {/* <div className="over_banner"></div> */}
+          <Image
+            src={SlideBannerMobie2}
+            alt="banner top"
+            className={` w-full  h-[100vh] object-cover md:hidden inline-block`}
+          ></Image>
         </SwiperSlide>
         <SwiperSlide>
           <Image
             src={BannerSlide3}
             alt="banner top"
-            className={resPonItem}
+            className={resPonItemMin640px}
           ></Image>
-          {/* <div className="over_banner"></div> */}
+          <Image
+            src={SlideBannerMobie3}
+            alt="banner top"
+            className={` w-full h-[100vh] object-cover md:hidden inline-block`}
+          ></Image>
         </SwiperSlide>
       </Swiper>
     </section>

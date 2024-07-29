@@ -242,13 +242,13 @@ body {
     font-size: 1vw;
   }
 } */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
   html {
     font-size: 1vw;
   }
 }
 
-@media (max-width: 1024px) and (min-width: 640px) {
+@media (max-width: 1023px) and (min-width: 640px) {
   html {
     font-size: 3vw; /* Điều chỉnh kích thước font theo chiều rộng viewport */
   }
