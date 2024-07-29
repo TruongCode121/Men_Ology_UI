@@ -10,7 +10,7 @@ const TitleBG = () => {
     const marqueeWidth = marqueeInnerRef.current.offsetWidth;
     gsap.to(marqueeRef.current, {
       x: `-${marqueeWidth}px`,
-      duration: 40,
+      duration: 100,
       ease: "linear",
       repeat: -1,
     });
