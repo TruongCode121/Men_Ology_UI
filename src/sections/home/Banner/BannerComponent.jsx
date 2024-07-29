@@ -62,7 +62,7 @@ const BannerComponent = () => {
           <Image
             src={SlideBannerMobie1}
             alt="banner top"
-            className={` w-full h-[100vh] md:hidden inline-block`}
+            className={` w-full h-[100vh]  md:hidden inline-block`}
           ></Image>
         </SwiperSlide>
         <SwiperSlide>
