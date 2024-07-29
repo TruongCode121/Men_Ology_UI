@@ -23,9 +23,9 @@ const Section4Content = () => {
     handleBgTextAnimation(reftxt3);
   }, []);
   return (
-    <section className="section4_style flex flex-col lg:flex-row justify-between items-center w-full xl:w-[83rem] lg:pl-[1rem] select-none">
+    <section className="section4_style flex flex-col lg:flex-row justify-between items-center w-full xl:w-[83rem] lg:pl-[1rem] select-none lg:space-x-[1rem]">
       <div className="content_left -ml-[2rem] sm:ml-0 text-[1.25rem] lg:text-[2.25rem] leading-[1.75rem] lg:leading-[2.25rem] tt_common_regular lg:order-1 order-2 mt-[1.54rem] lg:mt-0">
-        <p>Những người trẻ,</p>
+        <p className="line-clamp-1">Những người trẻ,</p>
         <div className="tt_common_extrabold relative inline-block text-[2rem] lg:text-[2.5rem]">
           <p
             ref={reftxt2}
@@ -37,9 +37,11 @@ const Section4Content = () => {
             MUÔN MÀU MUÔN VẺ.
           </p>
         </div>
-        <p className="-mt-2">Luôn chủ động, đón những điều mới mẻ.</p>
-        <p>Luôn chủ động, dù đó là những cú té.</p>
-        <p>Dù không hoàn hảo,</p>
+        <p className="-mt-2 whitespace-nowrap line-clamp-1">
+          Luôn chủ động, đón những điều mới mẻ.
+        </p>
+        <p className="line-clamp-1">Luôn chủ động, dù đó là những cú té.</p>
+        <p className="line-clamp-1">Dù không hoàn hảo,</p>
         <div className="relative tt_common_extrabold text-[2rem] lg:text-[2.5rem] inline-block">
           <p
             ref={reftxt3}
@@ -51,7 +53,7 @@ const Section4Content = () => {
             CỨ VẬY TIẾN TỚI!
           </p>
         </div>
-        <p className="-mt-2">Có gì mà phải lo!</p>
+        <p className="-mt-2 line-clamp-1">Có gì mà phải lo!</p>
         <div className="mt-[1rem] lg:mt-[2rem]">
           <div className="text-[2.5rem] lg:text-[4.25rem] tt_common_black relative inline-block ">
             <div
