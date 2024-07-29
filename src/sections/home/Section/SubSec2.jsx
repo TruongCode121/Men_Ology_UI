@@ -95,7 +95,7 @@ export function ItemSales({ className, children, refBox }) {
       ref={refBox}
       className={`size-[8.5rem] sm:size-[9.88181rem] lg:size-[17.88181rem] rounded-full bg-[#046D2F] flex justify-center items-center text-center ${className} leading-[1.125rem] lg:leading-[2rem]`}
     >
-      <p className="text-[1rem] lg:text-[1.75rem] tt_common_medium text-white">
+      <p className="text-[1rem] lg:text-[1.75rem] tt_common_medium text-white line-clamp-3">
         {children}
       </p>
     </div>
