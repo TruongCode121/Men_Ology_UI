@@ -30,12 +30,12 @@ const BannerComponent = () => {
   return (
     <section className="w-full relative h-[100vh]">
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
         // className="bg-white"
         pagination={{ clickable: true }}
-        // autoplay={{ delay: 3000, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
       >
         <SwiperSlide>
           <Image

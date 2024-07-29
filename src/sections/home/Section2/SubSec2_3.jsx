@@ -1,7 +1,6 @@
 "use client";
 import TitleContentItem from "../TitleContentItem";
 import Image from "next/image";
-import SubLeft3_3 from "../../../../public/home/SubLeft3_3.png";
 import imgLayoutRespon from "../../../../public/home/imgLayoutRespon.jpg";
 import SubRight3_3 from "../../../../public/home/SubRight3_3.png";
 import SubLeft2_3Mobie from "../../../../public/home/SubLeft2_3Mobie.png";
