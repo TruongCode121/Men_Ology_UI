@@ -66,7 +66,7 @@ const ListProduct = () => {
               MEN O.LOGY luôn dẫn đầu xu hướng, sử dụng các thành phần thiên
               nhiên HOT NHẤT & ĐƯỢC YÊU THÍCH NHẤT trên thế giới.
             </p>
-            <p className="inline-block lg:hidden text-[0.875rem] leading-[1.3125rem] ">
+            <p className="inline-block lg:hidden text-[0.875rem] leading-[1.3125rem] line-clamp-4">
               Với cấu trúc thông tin đã định, chúng tôi tiến hành xây dựng grid
               các trang. Grid này cụ thể hoá việc sắp xếp các cột theo kích
               thước PC 1600px và 12 colum, Mobile 414px và 4 colum.

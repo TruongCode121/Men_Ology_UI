@@ -16,7 +16,7 @@ const SubSec2_3 = () => {
           className="lg:w-[29.8rem] text-[#1C1C1C] text-[1.5225rem] tt_common_demibold"
           titleStyle="text-[1.5rem] sm:text-[3.75rem] mb-[1rem] sm:mb-[1.5rem]"
         >
-          <p className="text-[0.875rem] sm:text-[1.25rem] leading-[1.3125rem] sm:leading-[120%] tt_common_regular">
+          <p className="text-[0.875rem] sm:text-[1.25rem] leading-[1.3125rem] sm:leading-[120%] tt_common_regular line-clamp-4">
             Với cấu trúc thông tin đã định, chúng tôi tiến hành xây dựng grid
             các trang. Grid này cụ thể hoá việc sắp xếp các cột theo kích thước
             PC 1600px và 12 colum, Mobile 414px và 4 colum.

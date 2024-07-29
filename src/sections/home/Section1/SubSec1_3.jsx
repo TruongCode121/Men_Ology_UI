@@ -23,7 +23,7 @@ const SubSec1_3 = () => {
           titleStyle="text-white tt_common_demibold lg:text-[3.75rem] text-[1.5rem] text-center lg:text-right mb-[1.5rem]"
           className="text-white"
         >
-          <p className="tt_common_regular text-[0.875rem] lg:text-[1.5625rem] leading-[1.3125rem] lg:leading-[2rem] px-[1.6rem] lg:px-0  text-center lg:text-right">
+          <p className="tt_common_regular text-[0.875rem] lg:text-[1.5625rem] leading-[1.3125rem] lg:leading-[2rem] px-[1.6rem] lg:px-0  text-center lg:text-right line-clamp-5">
             Các thương hiệu chăm sóc cá nhân cho nam giới tại Việt Nam đang cạnh
             tranh với Men O.logy như một số thương hiệu nổi bật có độ phủ song
             cao: X-Men, The FaceShop, Shisedo và Clinique
