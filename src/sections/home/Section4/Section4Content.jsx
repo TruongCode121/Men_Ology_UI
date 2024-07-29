@@ -58,7 +58,7 @@ const Section4Content = () => {
           <div className="text-[2.5rem] lg:text-[4.25rem] tt_common_black relative inline-block ">
             <div
               ref={refMEN}
-              className="overflow-hidden whitespace-nowrap flex flex-shrink-0 h-[3.3rem] -mt-2 pt-2 bg-black/50"
+              className="overflow-hidden whitespace-nowrap flex flex-shrink-0 h-[3.3rem] -mt-2 pt-2 "
             >
               <span>MEN</span>
             </div>
