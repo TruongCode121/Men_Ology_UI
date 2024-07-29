@@ -13,9 +13,9 @@ const GridItemContent = () => {
             Công ty cổ phần hàng tiêu dùng Proven
           </div>
         </div>
-        <div className="w-[calc(100%_+_0.5rem)] sm:w-auto">
+        <div className=" sm:w-auto">
           <div className="title">dịch vụ</div>
-          <div className="content">UI/UX Design</div>
+          <div className="content whitespace-nowrap">UI/UX Design</div>
           <div className="content">Development</div>
         </div>
         <div>
