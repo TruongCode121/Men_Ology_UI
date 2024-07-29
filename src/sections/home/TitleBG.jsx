@@ -27,7 +27,7 @@ const TitleBG = () => {
         </div>
         <div className="">
           &nbsp;MEN O.LOGY&nbsp;MEN O.LOGY&nbsp;MEN O.LOGY&nbsp;MEN
-          O.LOGY&nbsp;MEN&nbsp;MEN &nbsp;
+          O.LOGY&nbsp;MEN O.LOGY&nbsp;
         </div>
       </div>
     </section>
