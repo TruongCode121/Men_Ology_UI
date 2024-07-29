@@ -14,7 +14,7 @@ const SubSec1_3 = () => {
         <Image
           src={subSec1Footer}
           alt="subSec1Footer"
-          className="w-[18.68763rem] sm:w-[24rem] lg:w-full mt-[2.15rem] lg:mt-[1.3rem]"
+          className="w-[18.68763rem] sm:w-[24rem] lg:w-full mt-[1.3rem]"
         ></Image>
       </div>
       <div className="order-1 lg:order-2 w-full lg:w-1/2 lg:mt-[13rem] lg:pl-[2.5rem]">

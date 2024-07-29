@@ -2,6 +2,7 @@
 import TitleContentItem from "../TitleContentItem";
 import Image from "next/image";
 import SubLeft3_3 from "../../../../public/home/SubLeft3_3.png";
+import imgLayoutRespon from "../../../../public/home/imgLayoutRespon.jpg";
 import SubRight3_3 from "../../../../public/home/SubRight3_3.png";
 import SubLeft2_3Mobie from "../../../../public/home/SubLeft2_3Mobie.png";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
@@ -24,23 +25,23 @@ const SubSec2_3 = () => {
         </TitleContentItem>
         <div
           ref={refImg1}
-          className="mt-[2rem] sm:mt-[2rem] relative lg:static"
+          className="mt-[2rem] sm:mt-[2rem] relative sm:static"
         >
           <Image
-            src={SubLeft3_3}
-            alt="SubLeft3_3"
+            src={imgLayoutRespon}
+            alt="imgLayoutRespon"
             priority
-            className="hidden  lg:inline-block sm:w-[51.1rem]"
+            className="hidden  sm:inline-block sm:w-[51.1rem] sm:relative"
           ></Image>
-          <div className="absolute lg:inline-block hidden bottom-0 left-[24.3%] h-[3.4375rem] w-[0.0625rem] bg-black/20"></div>
+          <div className="absolute sm:inline-block hidden bottom-0 left-[24.3%] sm:h-[2.1375rem] lg:h-[3.4375rem] w-[0.0625rem] bg-black/10 z-0"></div>
           <Image
             src={SubLeft2_3Mobie}
             alt="SubRight3_3Mobie"
             priority
-            className="inline-block lg:hidden w-full"
+            className="inline-block sm:hidden w-full"
           ></Image>
           <NumberBgImg></NumberBgImg>
-          <div className="w-[14.5rem] h-[3.125rem] mx-auto relative lg:hidden">
+          <div className="w-[14.5rem] h-[3.125rem] mx-auto relative sm:hidden">
             <BorderStyleItem className="w-[0.865rem] h-[0.0625rem] left-[3.7rem] top-[0.35rem]"></BorderStyleItem>
             <BorderStyleItem className="w-[0.405rem] h-[0.0625rem] left-[5.7rem] top-[0.35rem]"></BorderStyleItem>
             <NumberBgImg className="top-[0.9rem] left-[3.65rem]">
@@ -117,7 +118,7 @@ export function BorderStyleItem({ className }) {
 export function NumberBgImg({ children = "1600 x 850", className }) {
   return (
     <div
-      className={`font-manrope lg:hidden text-[0.625rem] ${
+      className={`font-manrope sm:hidden text-[0.625rem] ${
         className ? className : " top-[-1rem] right-[0.75rem]"
       }  text-neutral-500 absolute`}
     >
