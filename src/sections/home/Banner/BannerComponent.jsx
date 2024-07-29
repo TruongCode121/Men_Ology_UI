@@ -28,7 +28,7 @@ const BannerComponent = () => {
   const resPonItemMin640px =
     " w-full sm:h-[100vh]  hidden md:inline-block  object-cover";
   return (
-    <section className="w-full relative h-[100vh] bg-black">
+    <section className="w-full relative h-[100vh]">
       <Swiper
         modules={[Pagination]}
         spaceBetween={0}
@@ -46,7 +46,7 @@ const BannerComponent = () => {
           <Image
             src={bannerMobie}
             alt="banner top"
-            className={`w-full h-[100vh]  md:hidden inline-block object-cover`}
+            className={`w-full h-[100vh] md:hidden inline-block object-cover`}
           ></Image>
           <div className="over_banner sm:block hidden"></div>
           <TitleContent></TitleContent>
@@ -62,7 +62,7 @@ const BannerComponent = () => {
           <Image
             src={SlideBannerMobie1}
             alt="banner top"
-            className={` w-full h-[100vh] object-cover md:hidden inline-block`}
+            className={` w-full h-[100vh] md:hidden inline-block`}
           ></Image>
         </SwiperSlide>
         <SwiperSlide>
@@ -74,7 +74,7 @@ const BannerComponent = () => {
           <Image
             src={SlideBannerMobie2}
             alt="banner top"
-            className={` w-full  h-[100vh] object-cover md:hidden inline-block`}
+            className={` w-full  h-[100vh] md:hidden inline-block`}
           ></Image>
         </SwiperSlide>
         <SwiperSlide>
@@ -86,7 +86,7 @@ const BannerComponent = () => {
           <Image
             src={SlideBannerMobie3}
             alt="banner top"
-            className={` w-full h-[100vh] object-cover md:hidden inline-block`}
+            className={` w-full h-[100vh] md:hidden inline-block`}
           ></Image>
         </SwiperSlide>
       </Swiper>
