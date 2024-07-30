@@ -42,11 +42,13 @@ const BannerComponent = () => {
             src={BannerPng}
             alt="banner top"
             className={`${resPonItemMin640px} `}
+            priority
           ></Image>
           <Image
             src={bannerMobie}
             alt="banner top"
             className={`w-full h-[100vh] md:hidden inline-block object-cover`}
+            priority
           ></Image>
           <div className="over_banner sm:block hidden"></div>
           <TitleContent></TitleContent>
@@ -58,11 +60,13 @@ const BannerComponent = () => {
             src={BannerSlide1}
             alt="banner top"
             className={`${resPonItemMin640px}`}
+            priority
           ></Image>
           <Image
             src={SlideBannerMobie1}
             alt="banner top"
             className={` w-full h-[100vh]  md:hidden inline-block`}
+            priority
           ></Image>
         </SwiperSlide>
         <SwiperSlide>
@@ -70,11 +74,13 @@ const BannerComponent = () => {
             src={BannerSlide2}
             alt="banner top"
             className={resPonItemMin640px}
+            priority
           ></Image>
           <Image
             src={SlideBannerMobie2}
             alt="banner top"
             className={` w-full  h-[100vh] md:hidden inline-block`}
+            priority
           ></Image>
         </SwiperSlide>
         <SwiperSlide>
@@ -82,11 +88,13 @@ const BannerComponent = () => {
             src={BannerSlide3}
             alt="banner top"
             className={resPonItemMin640px}
+            priority
           ></Image>
           <Image
             src={SlideBannerMobie3}
             alt="banner top"
             className={` w-full h-[100vh] md:hidden inline-block`}
+            priority
           ></Image>
         </SwiperSlide>
       </Swiper>
