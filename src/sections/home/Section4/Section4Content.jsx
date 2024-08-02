@@ -77,7 +77,7 @@ const Section4Content = () => {
         <Image
           src={brandStory}
           alt="Group1181877"
-          className=" w-[19.80156rem] lg:w-auto"
+          className=" w-[19.80156rem] lg:w-[34.75rem]"
         ></Image>
       </div>
     </section>

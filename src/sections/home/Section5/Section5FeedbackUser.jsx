@@ -7,18 +7,19 @@ const Section5FeedbackUser = () => {
   const refFeedBack = handleUseScrollTrigger(0, 0, 200, 0, 1);
   const refWeb = handleUseScrollTrigger(-200, 0, 0, 0, 1);
   return (
-    <section className="bg-Loan-Men-Xanh pb-[4.06rem] lg:pb-0">
-      <div className="w-full h-[13rem] lg:h-[20rem] bg-white"></div>
-
-      <div className="lg:container mx-auto mt-[-40%] sm:mt-[-25%] lg:mt-[-8%] flex flex-col lg:flex-row items-center  space-x-[1.6rem] lg:space-x-[4.25rem]">
-        <div ref={refWeb}>
+    <section className="bg-Loan-Men-Xanh pb-[4.06rem] lg:pb-0 mt-[20rem] lg:mt-[26rem]">
+      <div className="lg:container mx-auto  sm:mt-[-25%] lg:mt-[-8%] flex flex-col lg:flex-row items-center  space-x-[1.6rem] lg:space-x-[4.25rem]">
+        <div
+          ref={refWeb}
+          className="-mt-[8rem] w-[22.1875rem] lg:w-[46.625rem]"
+        >
           <Image
             src={GroupIndex}
             alt="GroupIndex"
-            className="w-[22.1875rem] lg:w-[46.625rem] "
+            className="w-full h-full"
           ></Image>
         </div>
-        <div ref={refFeedBack} className="text-white pt-[3rem] lg:pt-[4.5rem]">
+        <div ref={refFeedBack} className="text-white mt-[2rem] lg:-mt-[3rem]">
           <div className="-ml-[1.6rem] lg:-ml-[3rem] w-[2.7425rem]">
             <NhaydoiSec5></NhaydoiSec5>
           </div>

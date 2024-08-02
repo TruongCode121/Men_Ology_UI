@@ -46,29 +46,33 @@ const SubSec2 = () => {
   }, []);
   return (
     <section className="w-full mt-[3rem] sm:mt-[2.302rem]">
-      <div className="w-[1.70394rem] ml-[0.3rem] lg:ml-[2rem] lg:w-[3.65131rem]">
-        <NhaydoiSvg></NhaydoiSvg>
-      </div>
-
-      <div className="relative text-[2rem] lg:text-[4.875rem] ml-[0.7rem] sm:ml-[2.7rem] lg:ml-[7.5rem] mt-[0.3rem] sm:-mt-[0.5rem] lg:-mt-[1rem] w-auto inline-block ">
-        <div
-          ref={refMenSub2}
-          className="overflow-hidden uppercase tt_common_extrabold whitespace-nowrap text-[#046D2F] pt-[3px] lg:pt-0 h-[5rem] lg:h-[10rem]"
-        >
-          Men
+      <div>
+        <div className="w-[1.70394rem] lg:ml-[1rem] lg:w-[3.65131rem]">
+          <NhaydoiSvg></NhaydoiSvg>
         </div>
-        <div
-          className="[&_span]:uppercase [&_span]:text-[2rem] [&_span]:lg:text-[4.875rem] 
+
+        <div className="relative h-[5rem] lg:h-[10rem] w-auto inline-block ml-[0.3rem] lg:ml-[7rem] mt-[0.5rem] lg:-mt-[1rem]">
+          <div
+            ref={refMenSub2}
+            className="overflow-hidden  text-[2rem] lg:text-[4.875rem] leading-[2.25rem] 
+            2xl:pt-[1px]
+            lg:leading-[4.75rem] uppercase tt_common_extrabold whitespace-nowrap text-[#046D2F]"
+          >
+            Men
+          </div>
+          <div
+            className="[&_span]:uppercase [&_span]:text-[2rem] [&_span]:lg:text-[4.875rem] 
       leading-[2.25rem]  lg:leading-[4.75rem] absolute top-0 sm:pr-[4rem] lg:pr-0
       text-[1.5rem] lg:text-[5rem] w-[20rem] sm:w-[30rem] lg:w-[58.375rem] tt_common_demibold text-[#141414]"
-        >
-          <span className="text_stroke_046D2F text-transparent tt_common_extrabold">
-            Men
-          </span>{" "}
-          <span className="tt_common_extrabold text_stroke_046D2F text-transparent">
-            O.logy
-          </span>{" "}
-          sự lựa chọn hoàn hảo dành cho bạn
+          >
+            <span className="text_stroke_046D2F text-transparent tt_common_extrabold">
+              Men
+            </span>{" "}
+            <span className="tt_common_extrabold text_stroke_046D2F text-transparent">
+              O.logy
+            </span>{" "}
+            sự lựa chọn hoàn hảo dành cho bạn
+          </div>
         </div>
       </div>
       <div className="container_box flex justify-center lg:justify-end">

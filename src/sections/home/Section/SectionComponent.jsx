@@ -12,7 +12,7 @@ import { useRef } from "react";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 const SectionComponent = () => {
   return (
-    <section className="relative ">
+    <section id="targetSection" className="relative ">
       <div className="absolute top-[5rem] lg:top-[1rem] -right-[1rem] lg:right-[-2rem]">
         <Image
           src={bgnhap4}

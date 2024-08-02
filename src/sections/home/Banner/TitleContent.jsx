@@ -21,7 +21,7 @@ const TitleContent = () => {
         <div className="relative">
           <div
             ref={refMENBanner}
-            className="text-white overflow-hidden pb-2 lg:h-[7rem] lg:-mt-[1rem] lg:pt-[1rem]"
+            className="text-white overflow-hidden pb-2 lg:h-[8rem] lg:-mt-[1.6rem] lg:pt-[1.6rem]"
           >
             men
           </div>

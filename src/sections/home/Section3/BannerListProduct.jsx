@@ -4,31 +4,11 @@ import image_140 from "../../../../public/home/image_140.jpg";
 import image_140_mobie from "../../../../public/home/image_140_mobie.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 gsap.registerPlugin(ScrollTrigger);
 const BannerListProduct = () => {
-  const refBanner = useRef(null);
-  useEffect(() => {
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: refBanner.current,
-        // start: "top center",
-        // end: "top 100px",
-        start: "top bottom",
-        end: "bottom top",
-        scrub: 2,
-        // markers: true,
-        // id: "scrub",
-        once: true, // khi đi qua phần tử rồi quay lại hoạt ảnh sẽ được giữ nguyên
-      },
-    });
-    tl.fromTo(
-      refBanner.current,
-      {
-        scale: 0.5,
-      },
-      { scale: 1, duration: 1 }
-    );
-  }, []);
+  const refBanner = handleUseScrollTrigger(0, 0, 100, 0, 1);
+
   return (
     <section className="w-full mt-[4rem]  lg:-mt-[4.3rem]">
       <h2 className="text-[1.5rem] sm:text-[2.5rem] lg:text-[3.75rem] font-semibold text-white text-center sm:mb-[2.68rem]">
