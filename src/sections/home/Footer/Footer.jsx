@@ -83,7 +83,7 @@ const Footer = () => {
             ></Image>
           </div>
         </div>
-        <div className="h-[25rem] bg-white relative w-full mt-[4rem] block  lg:hidden"></div>
+        <div className="h-[30rem] bg-white relative w-full mt-[4rem] block  lg:hidden"></div>
       </div>
     </section>
   );
