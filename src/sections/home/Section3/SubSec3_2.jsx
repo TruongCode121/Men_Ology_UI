@@ -2,7 +2,8 @@
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 import Image from "next/image";
 import image_141 from "../../../../public/home/image_141.png";
-import image_193 from "../../../../public/home/image_193.jpg";
+
+import image_193_png from "../../../../public/home/image_193_png.png";
 import TitleContentItem from "../TitleContentItem";
 const SubSec3_2 = () => {
   const refWebMen1 = handleUseScrollTrigger(0, 0, 0, 0, 1, 0.5, 1);
@@ -21,7 +22,7 @@ const SubSec3_2 = () => {
           className="w-full lg:w-[40.5625rem] -mt-[2rem] lg:mt-0"
         >
           <Image
-            src={image_193}
+            src={image_193_png}
             alt="SubSec3_1Img"
             className="w-[17.3125rem] lg:w-full rounded-xl lg:mt-[6.4rem] ml-auto lg:ml-0"
           ></Image>

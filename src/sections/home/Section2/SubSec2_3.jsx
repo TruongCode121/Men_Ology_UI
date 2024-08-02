@@ -1,8 +1,9 @@
 "use client";
 import TitleContentItem from "../TitleContentItem";
 import Image from "next/image";
-import imgLayoutRespon from "../../../../public/home/imgLayoutRespon.jpg";
+import imgLayoutRespon2x from "../../../../public/home/imgLayoutRespon2x.jpg";
 import SubRight3_3 from "../../../../public/home/SubRight3_3.png";
+import SubRight3_3_3x from "../../../../public/home/SubRight3_3_3x.jpg";
 import SubLeft2_3Mobie from "../../../../public/home/SubLeft2_3Mobie.png";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 const SubSec2_3 = () => {
@@ -27,7 +28,7 @@ const SubSec2_3 = () => {
           className="mt-[2rem] sm:mt-[2rem] relative sm:static"
         >
           <Image
-            src={imgLayoutRespon}
+            src={imgLayoutRespon2x}
             alt="imgLayoutRespon"
             priority
             className="hidden  sm:inline-block sm:w-[51.1rem] sm:relative"
@@ -86,7 +87,7 @@ const SubSec2_3 = () => {
           className="static lg:absolute mt-[2rem] sm:mt-[5rem] sm:-top-[10rem]"
         >
           <Image
-            src={SubRight3_3}
+            src={SubRight3_3_3x}
             alt="SubLeft3_3"
             priority
             className="w-full scale-x-105 scale-y-105"

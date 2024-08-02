@@ -5,6 +5,7 @@ import image_140_mobie from "../../../../public/home/image_140_mobie.png";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
+import bannerSection3 from "../../../../public/home/bannerSection3.jpg";
 gsap.registerPlugin(ScrollTrigger);
 const BannerListProduct = () => {
   const refBanner = handleUseScrollTrigger(0, 0, 100, 0, 1);
@@ -18,12 +19,11 @@ const BannerListProduct = () => {
         ref={refBanner}
         className="w-full lg:h-[51.625rem] hidden sm:inline-block pl-[0.5rem]"
       >
-        <div className="sm:w-full sm:h-[20rem] lg:size-full  overflow-hidden border_bannerSection3">
+        <div className="sm:w-full sm:h-full lg:size-full  overflow-hidden border_bannerSection3">
           <Image
-            src={image_140}
+            src={bannerSection3}
             alt="image_140"
-            className="w-full rounded-xl scale-x-[1.14] sm:ml-[0.4rem] lg:ml-3 
-            sm:scale-y-[1.17] lg:scale-y-[1.1] lg:-mt-[1.5rem] "
+            className="w-full rounded-xl "
           ></Image>
         </div>
       </div>
