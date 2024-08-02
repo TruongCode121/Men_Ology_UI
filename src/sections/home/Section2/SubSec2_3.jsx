@@ -2,8 +2,7 @@
 import TitleContentItem from "../TitleContentItem";
 import Image from "next/image";
 import imgLayoutRespon2x from "../../../../public/home/imgLayoutRespon2x.jpg";
-import SubRight3_3 from "../../../../public/home/SubRight3_3.png";
-import SubRight3_3_3x from "../../../../public/home/SubRight3_3_3x.jpg";
+import SubRight3_3_4x from "../../../../public/home/SubRight3_3_4x.jpg";
 import SubLeft2_3Mobie from "../../../../public/home/SubLeft2_3Mobie.png";
 import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 const SubSec2_3 = () => {
@@ -87,10 +86,13 @@ const SubSec2_3 = () => {
           className="static lg:absolute mt-[2rem] sm:mt-[5rem] sm:-top-[10rem]"
         >
           <Image
-            src={SubRight3_3_3x}
+            src={SubRight3_3_4x}
             alt="SubLeft3_3"
             priority
+            // width={300}
+            // height={800}
             className="w-full scale-x-105 scale-y-105"
+            // quality={100}
           ></Image>
         </div>
       </div>
