@@ -7,7 +7,7 @@ const Section5FeedbackUser = () => {
   const refFeedBack = handleUseScrollTrigger(0, 0, 200, 0, 1);
   const refWeb = handleUseScrollTrigger(-200, 0, 0, 0, 1);
   return (
-    <section className="bg-Loan-Men-Xanh pb-[4.06rem] lg:pb-0 mt-[20rem] lg:mt-[26rem]">
+    <section className="bg-Loan-Men-Xanh pb-[4.06rem] lg:pb-0 mt-[12rem] sm:mt-[20rem] lg:mt-[26rem]">
       <div className="lg:container mx-auto  sm:mt-[-25%] lg:mt-[-8%] flex flex-col lg:flex-row items-center  space-x-[1.6rem] lg:space-x-[4.25rem]">
         <div
           ref={refWeb}
