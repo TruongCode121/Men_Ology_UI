@@ -9,15 +9,17 @@ import Section5FeedbackUser from "@/sections/home/Section5/Section5FeedbackUser"
 
 export default async function Home() {
   return (
-    <main className="overflow-hidden tt_common_medium">
+    <main className="tt_common_medium">
       <BannerComponent></BannerComponent>
-      <SectionComponent></SectionComponent>
-      <Section1Component></Section1Component>
-      <Section2Component></Section2Component>
-      <Section3Component></Section3Component>
-      <Section4Component></Section4Component>
-      <Section5FeedbackUser></Section5FeedbackUser>
-      <Footer></Footer>
+      <div className="overflow-hidden">
+        <SectionComponent></SectionComponent>
+        <Section1Component></Section1Component>
+        <Section2Component></Section2Component>
+        <Section3Component></Section3Component>
+        <Section4Component></Section4Component>
+        <Section5FeedbackUser></Section5FeedbackUser>
+        <Footer></Footer>
+      </div>
     </main>
   );
 }

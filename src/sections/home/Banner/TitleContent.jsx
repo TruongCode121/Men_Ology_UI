@@ -17,7 +17,7 @@ const TitleContent = () => {
   }, []);
   return (
     <section className="absolute top-[15%] sm:top-[3.25rem] lg:top-[20%] left-1/2 -translate-x-1/2">
-      <div className="uppercase text-[3.75rem] sm:text-[5rem] md:text-[4rem] lg:text-[9.375rem] leading-[5.5625rem] md:leading-[4rem] flex tt_common_bold space-x-[1rem]">
+      <h1 className="uppercase text-[3.75rem] sm:text-[5rem] md:text-[4rem] lg:text-[9.375rem] leading-[5.5625rem] md:leading-[4rem] flex tt_common_bold space-x-[1rem]">
         <div className="relative">
           <div
             ref={refMENBanner}
@@ -30,7 +30,7 @@ const TitleContent = () => {
           </div>
         </div>
         <div className="text-transparent text_stroke_white">o.logy</div>
-      </div>
+      </h1>
       <div className="text-white text-right text-[1.5rem] md:text-[1rem] lg:text-[2.8125rem] font-medium lg:mt-[1rem]">
         By Nature
       </div>

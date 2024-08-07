@@ -22,32 +22,3 @@ const SubSec1_1 = () => {
 };
 
 export default SubSec1_1;
-{
-  /* <h1 className="text-[3.5rem]">BRAND STORY</h1>
-      <div className="overflow-hidden h-[33rem] rounded-lg bg-black mt-[1rem] relative">
-        <Image
-          src={new_back_section_1}
-          alt="new_back_section_1"
-          className=" scale-150 "
-        ></Image>
-        <div className="absolute top-0">
-          <div className="flex flex-col">
-            <span>Những người trẻ.</span>
-            <span>LUÔN MÀU MUỐN VỀ</span>
-            <span>Luôn chủ động, đón những điều mới mẻ.</span>
-            <span>Luôn chủ động, dù đó là những cú té.</span>
-            <span>Dù không hoàn hảo,</span>
-            <span>CỨ VẬY TIẾN TỚI</span>
-            <span>Có gì mà phải lo!</span>
-            <span>MEN O.LOGY</span>
-            <span> MEN KHÔNG LO GÌ!</span>
-          </div>
-        </div>
-        <div className="absolute top-0 right-0">
-          <Image
-            src={homepage_brand_story_1}
-            alt="homepage_brand_story_1"
-          ></Image>
-        </div>
-      </div> */
-}

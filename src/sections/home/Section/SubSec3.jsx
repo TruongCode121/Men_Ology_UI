@@ -16,12 +16,12 @@ const SubSec3 = () => {
         className="w-full lg:w-[53.75rem] text-center mx-auto 
       mt-[3.12rem] lg:mt-[7.5rem]"
       >
-        <h1
+        <h3
           ref={refTitle}
           className="text-[1.5rem] sm:text-[2.5rem] lg:text-[3.75rem] tt_common_demibold text-Loan-Men-11 mb-[1rem]"
         >
           3C Reseach{" "}
-        </h1>
+        </h3>
         <p
           ref={refText}
           className="text-[0.875rem] sm:text-[1rem] lg:text-[1.5625rem] text-Loan-Men-text-men leading-[1.3125rem] lg:leading-[2.0625rem] lg:line-clamp-2 tracking-normal tt_common_regular"

@@ -9,7 +9,7 @@ const TitleContentItem = ({
   refTitle,
   refContent,
 }) => {
-  const refH1 = handleUseScrollTrigger(0, 0, 100, 0, 1);
+  const refH3 = handleUseScrollTrigger(0, 0, 100, 0, 1);
   const reftxt = handleUseScrollTrigger(0, 0, 150, 0, 1);
   return (
     <section
@@ -17,9 +17,9 @@ const TitleContentItem = ({
         className ? className : "w-full lg:w-[43rem] text-[#1C1C1C]"
       } tt_common_regular`}
     >
-      <h1 ref={refTitle ? refTitle : refH1} className={`${titleStyle}`}>
+      <h3 ref={refTitle ? refTitle : refH3} className={`${titleStyle}`}>
         {title}
-      </h1>
+      </h3>
       <div ref={refContent ? refContent : reftxt}>
         {children ? (
           children

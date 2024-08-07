@@ -50,7 +50,6 @@ const SubSec2 = () => {
         <div className="w-[1.70394rem] lg:ml-[1rem] lg:w-[3.65131rem]">
           <NhaydoiSvg></NhaydoiSvg>
         </div>
-
         <div className="relative h-[5rem] lg:h-[10rem] w-auto inline-block ml-[0.3rem] lg:ml-[7rem] mt-[0.5rem] lg:-mt-[1rem]">
           <div
             ref={refMenSub2}

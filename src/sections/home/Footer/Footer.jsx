@@ -18,7 +18,7 @@ const Footer = () => {
   const widthHeightItem =
     "w-[10.5625rem] sm:w-[15rem] lg:w-[21.56094rem] h-[20.60706rem] sm:h-[31rem] lg:h-[44.0625rem] ";
   return (
-    <section className=" mx-auto lg:mt-[20rem]  ">
+    <section className=" mx-auto lg:pt-[17.1rem] lg:pb-[19rem] h-full">
       <div className=" lg:container  flex flex-col lg:flex-row items-start  relative">
         <div className="mt-[20%] px-[0.63rem] lg:px-0">
           <TitleContentItem
@@ -46,7 +46,7 @@ const Footer = () => {
             </div> */}
           </div>
         </div>
-        <div className="w-full relative lg:translate-x-[5%] mt-[2.5rem] lg:mt-0 ">
+        <div className="w-full relative lg:translate-x-[5%] mt-[2.5rem] lg:mt-0">
           <div
             ref={refBgColor}
             className="size-[73.0625rem] absolute lg:static -left-[110%] sm:-left-[55%] top-1/2 -mt-[11.8rem] lg:mt-0  rounded-full bg-[rgba(4,109,47,0.10)]"
@@ -83,7 +83,7 @@ const Footer = () => {
             ></Image>
           </div>
         </div>
-        <div className="h-[30rem] bg-white relative w-full mt-[4rem] block  lg:hidden"></div>
+        <div className="h-[20rem] bg-white relative w-full mt-[3rem] block lg:hidden"></div>
       </div>
     </section>
   );

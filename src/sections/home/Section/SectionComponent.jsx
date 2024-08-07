@@ -8,8 +8,6 @@ import bgnhap4 from "../../../../public/home/bgnhap4.png";
 import la1 from "../../../../public/home/la1.png";
 import bgImgHop from "../../../../public/home/bgImgHop.png";
 import TitleContentItem from "../TitleContentItem";
-import { useRef } from "react";
-import handleUseScrollTrigger from "@/hooks/useScrollTriggerFromTo";
 const SectionComponent = () => {
   return (
     <section id="targetSection" className="relative ">
@@ -39,7 +37,7 @@ const SectionComponent = () => {
           "
         ></Image>
       </div>
-      <div className="px-[0.63rem] lg:px-0 w-full lg:container lg:mx-auto mt-[4rem] lg:mt-[7.5rem] relative ">
+      <div className="px-[0.63rem] lg:px-0 w-full lg:container lg:mx-auto lg:mt-[7.5rem] relative  ">
         <TitleContentItem></TitleContentItem>
         <SubSec1></SubSec1>
         <SubSec2></SubSec2>
