@@ -37,7 +37,7 @@ const SectionComponent = () => {
           "
         ></Image>
       </div>
-      <div className="px-[0.63rem] lg:px-0 w-full lg:container lg:mx-auto mt-[4.37rem] lg:mt-[7.5rem] relative  ">
+      <div className="px-[0.63rem] lg:px-0 w-full lg:container lg:mx-auto  relative  ">
         <TitleContentItem></TitleContentItem>
         <SubSec1></SubSec1>
         <SubSec2></SubSec2>

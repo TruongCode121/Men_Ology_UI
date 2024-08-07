@@ -11,7 +11,7 @@ export default async function Home() {
   return (
     <main className="tt_common_medium">
       <BannerComponent></BannerComponent>
-      <div className="overflow-hidden">
+      <div className="overflow-hidden mt-[4.37rem] lg:mt-[7.5rem]">
         <SectionComponent></SectionComponent>
         <Section1Component></Section1Component>
         <Section2Component></Section2Component>
