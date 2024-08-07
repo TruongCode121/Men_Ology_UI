@@ -74,7 +74,7 @@ const Footer = () => {
           </div>
           <div
             ref={refWeb3}
-            className={`${widthHeightItem} lg:absolute top-[37.31rem] left-[4.56rem] mt-[1.93rem] mb-[4rem] lg:mb-0 lg:mt-0  ml-[0.63rem] lg:ml-0`}
+            className={`${widthHeightItem} lg:absolute top-[37.31rem] left-[4.56rem] mt-[1.93rem] mb-[6rem] lg:mb-0 lg:mt-0  ml-[0.63rem] lg:ml-0`}
           >
             <Image
               src={FooterImg3}
